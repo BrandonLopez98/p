@@ -7,15 +7,36 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.header{
-    padding: 2vw 0 2vw 0;
-    background: #F2F2F2;
+
+.header .nav{
+    background-color: #FFFFFF;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5vw 0.5vw 1.5vw 0.5vw;
+    color: rgba(27, 31, 59, 0.8);
 }
 
-.header div{    
+.header .nav span{
+    background: rgba(2, 49, 107, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 0.5vw 0.8vw 0.5vw 0.8vw;
+    border-radius: 20px;
+}
+
+.header .uno{    
     display: flex;
     justify-content: space-around;
     height: 60vh;
+    background: #F2F2F2;
+}
+
+.header .dos{    
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+    background: #F2F2F2;
 }
 
 .header .texto{
@@ -274,6 +295,7 @@
 .menos-clientes .Misión-Visión{
     width: 80vw;
     margin: 0 auto;
+    margin-bottom: 8vw;
 }
 
 .menos-clientes .Misión-Visión h4{
@@ -300,8 +322,6 @@
     align-items: center;
     margin: 2vw 2vw 0 0 ;
     width: 25vw;
-    border: 2px solid black;
-
 }
 
 .menos-clientes .Misión-Visión .flex span{
