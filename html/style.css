@@ -1,0 +1,327 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    padding: 2vw 0 2vw 0;
+    background: #F2F2F2;
+}
+
+.header div{    
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+}
+
+.header .texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+}
+
+.header .texto h2{
+    color: #02316B;
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 1.2vw;
+}
+
+.header .texto p{
+    color: #AAAAAA;
+}
+
+.header .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    background-color: rgba(100, 136, 180, 0.2);
+    border: none;
+    margin-top: 2vw;
+    padding: 0.6vw;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #02316B;
+}
+
+.header .button span{
+    margin-left: 0.5vw;
+}
+
+.header .uno{
+    display: none;
+}
+
+.header .dos{
+    display: none;
+}
+
+.header #active{
+    display: flex;
+}
+
+.content-full-valor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vw 0 4vw 0 ;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.content-full-valor h5{
+    color: rgba(68, 72, 94, 1);
+    font-weight: 500;
+    font-size: 2.3vw;
+    margin: 1vw;
+}
+
+.content-Valor-Añadido{
+    display: flex;
+    margin-top: 2vw;
+}
+
+.content-Valor-Añadido div{
+    width: 25vw;
+}
+
+.content-Valor-Añadido span{
+    background: rgba(59, 91, 205, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 0.5vw;
+    border-radius: 5px;
+    font-size: 1.8vw;
+    font-weight: 700;
+}
+
+.content-Valor-Añadido h6{
+    margin: 1vw 0 1vw 0;
+    font-weight: 700;
+    color: rgba(2, 49, 107, 1);
+    font-size: 1.8vw;
+}
+
+.content-Valor-Añadido p{
+    color: rgba(137, 137, 137, 1);
+    font-weight: 300;
+    font-size: 1.3vw;
+    padding-right: 2vw;
+}
+
+.content-full-valor .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(100, 136, 180, 0.2);
+    border: none;
+    padding: 0.5vw 0.8vw 0.5vw 0.8vw;
+    border-radius: 10px;
+
+}
+
+.content-full-valor .button span{
+    background: none;
+    color:rgba(2, 49, 107, 1);
+    font-weight: 500;
+    font-size: 1.4vw;
+}
+
+.content-full-valor .content-button{
+    text-align: center;
+    margin: auto;
+
+}
+
+.asesor-gratis{
+    display: flex;
+    margin: 0 auto;
+    background: rgba(59, 91, 205, 1);
+    padding: 5vw 0 2vw 10vw;
+}
+
+.asesor-gratis .img{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.asesor-gratis .img img{
+    width: 50vw;
+}
+
+.asesor-gratis .title{
+    background: rgba(255, 255, 255, 1);
+    color: rgba(59, 91, 205, 1);
+    display: inline;
+    padding: 0 0.9vw 0 0.9vw;
+    border-radius: 10px;
+}
+
+.asesor-gratis h5{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 3.5vw;
+    padding-right: 4.5vw;
+    line-height: 1.0;
+}
+
+.asesor-gratis .text{
+    color: #DBDBDB;
+    margin: 1vw 1vw 1vw 0;
+    font-weight: 300;
+    background: none;
+    font-size: 1.5vw;
+}
+
+.asesor-gratis h6{
+    color: #95ACFF;
+    font-weight: 500;
+    font-size: 1.7vw;
+    margin-bottom: 1vw;
+}
+
+.asesor-gratis p{
+    color: #F2F2F2;
+    background: #4A69D9;
+    font-weight: 300;
+    font-size: 1.5vw;
+    margin: 0 10vw 2vw 0;
+    padding: 0.5vw;
+    border-radius: 10px;
+}
+
+.menos-clientes{
+    margin-top: 5vw;
+}
+
+.menos-clientes .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.menos-clientes .title h3{
+    color: #3B5BCD;
+    font-weight: 700;
+    font-size: 3vw;
+
+}
+
+.menos-clientes .title h5{
+    color: #8AA2F9;
+    font-weight: 500;
+    margin-top: 0.5vw;
+    font-size: 1.4vw;
+    margin: 0 5vw;
+}
+
+.menos-clientes .descargar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.menos-clientes .descargar .text{
+    width: 55vw;
+}
+
+.menos-clientes .descargar .text h3{
+    color: #3B5BCD;
+    font-weight: 700;
+    font-size: 3.5vw;
+    line-height: 1.0;
+    margin-bottom: 1vw;
+}
+
+.menos-clientes .descargar .text span{
+    background: #3B5BCD;
+    padding: 0 0.5vw 0 0.5vw;
+    border-radius: 10px;
+    color: #F2F2F2;
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+
+.menos-clientes .descargar .text h4{
+    color: #44485E;
+    font-weight: 700;
+    margin: 1vw 0 1vw 0;
+    font-size: 1.7vw;
+}
+
+.menos-clientes .descargar .text p{
+    padding: 0 0.5vw 0 0.5vw;
+    color: #F2F2F2;
+    font-size: 1.3vw;
+    font-weight: 300;
+    color: #6788FF;
+    margin-bottom: 1vw;
+}
+
+.menos-clientes .Misión-Visión{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.menos-clientes .Misión-Visión h4{
+    color: #44485E;
+    font-weight: 700;
+    font-size: 3vw;
+    margin-top: 2.5vw;
+}
+
+.menos-clientes .Misión-Visión > p{
+    color: #939393;
+    font-weight: 500;
+    font-size: 1.2vw;
+    width: 40vw;
+}
+
+.menos-clientes .Misión-Visión .flex{
+    display: flex;
+}
+
+.menos-clientes .Misión-Visión .flex > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw 2vw 0 0 ;
+    width: 25vw;
+    border: 2px solid black;
+
+}
+
+.menos-clientes .Misión-Visión .flex span{
+    background: #3B5BCD;
+    padding: 0 0.5vw 0 0.5vw;
+    border-radius: 10px;
+    color: #F2F2F2;
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+
+.menos-clientes .Misión-Visión .flex h5{
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: #000000;
+
+}
+
+.menos-clientes .Misión-Visión .flex p{
+    font-weight: 300;
+    color: #000000;
+    font-size: 1.2
+}

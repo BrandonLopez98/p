@@ -1,0 +1,11 @@
+.nav{
+    width: 100vw;
+    display: flex;
+}
+
+.ulNav{
+    display: flex;
+    list-style-type: none;
+    border: 2px solid black;
+}
+
