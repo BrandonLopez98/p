@@ -1,0 +1,120 @@
+.main-contact{
+    height: calc(100vh - 6vw);
+    background: rgba(103, 136, 255, 0.032);
+}
+.content-contacto{
+    display: flex;
+    justify-content:left;
+    margin-left: 10vw;
+}
+
+.content-contacto > div{
+    width: 40vw;
+}
+
+.content-contacto .text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1vw;
+
+}
+
+.content-contacto .content-img h2{
+    background: rgba(103, 136, 255, 1);
+    padding: 0.8vw;
+    margin-right: 0.5vw;
+    border-radius: 10px;
+    font-size: 1.6vw;
+    font-weight: 500;
+    margin-bottom: 1vw;
+    color: rgba(255, 255, 255, 1);
+    width: 11vw;
+
+}
+
+.content-contacto .content-img img{
+    background: rgba(103, 136, 255, 0.22);
+    padding: 0.8vw;
+    width: 3.3vw;
+    margin-right: 0.5vw;
+    border-radius: 10px;
+}
+
+.content-contacto .content-img p{
+    background: rgba(103, 136, 255, 0.22);
+    padding: 0.8vw;
+    margin-right: 0.5vw;
+    border-radius: 10px;
+}
+
+.content-contacto .content-img .img-contacto{
+    position: absolute;
+    bottom: 1vw;
+    left: 1vw;
+    width: 30vw;
+    background: none;
+}
+
+.content-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-form{
+   text-align: center;   
+}
+
+.content-form h2{
+    color: rgba(2, 49, 107, 1);
+    font-size: 4vw;
+    font-weight: 500;
+    margin-top: 2vw;
+}
+
+.content-form h5{
+    color: rgba(2, 49, 107, 1);
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+
+.content-form span{
+    color: rgba(103, 136, 255, 1);
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+
+.content-form p{
+    color: rgba(2, 49, 107, 1);
+    font-size: 1.5vw;
+}
+
+.content-form .form-group{
+    display: flex;
+    flex-direction: column;
+    background: rgba(103, 136, 255, 0.11);
+    padding: 2vw;
+    text-align: start;
+    margin-top: 2vw;
+    border-radius: 10px;
+}
+
+.content-form .form-group label{
+    color: rgba(2, 49, 107, 1);
+}
+
+.content-form .form-group input{
+    background: none;
+    border-radius: 5px;
+    padding: 0.3vw;
+    margin-bottom: 1.5vw;
+    border: 1px solid rgba(103, 136, 255, 0.34)
+}
+
+.content-form .form-group textarea{
+    background: none;  
+    border-radius: 5px; 
+    padding: 0.3vw;
+    margin-bottom: 1.5vw;
+    border: 1px solid rgba(103, 136, 255, 0.34)
+}
