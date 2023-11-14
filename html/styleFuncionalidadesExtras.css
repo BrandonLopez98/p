@@ -1,0 +1,51 @@
+.header .title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(59, 91, 205, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 1.5vw 0 1.5vw 0;
+}
+
+.header .title h2{
+    margin-bottom: 1.5vw;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.header .title p{
+    font-weight: 500;
+}
+
+.header .title img{
+    width: 11vw;
+}
+
+.digital .manera-digital{
+    text-align: center;
+}
+
+.digital .manera-digital h3{
+    margin: 3vw 0 3vw 0;
+    font-weight: 500;
+    font-size: 1.8vw;
+}
+
+.digital .manera-digital > div{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    width: 85vw;
+    color: rgba(90, 114, 143, 1);
+    font-weight: 300;
+
+}
+
+.digital .manera-digital div span{
+    background: rgba(59, 91, 205, 1);
+    padding: 0.5vw;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 1);
+    margin-left:2vw;
+}
