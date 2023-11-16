@@ -93,10 +93,79 @@
 
 .content-pwa{
     background: rgba(2, 49, 107, 1);
+    margin-top: 2vw;
 }
 
 .content-pwa h2{
     text-align: center;
     color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    padding: 3vw 0 5vw 0;
+    font-size: 2vw;
+    font-weight: 500;
+}
 
+
+.content-pwa .div-pwa{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-pwa .div-pwa div{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 1);
+}
+
+.content-pwa .div-pwa .img{
+    justify-content: space-between;
+    padding-bottom: 7vw;
+    padding-left: 5vw;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.content-pwa .div-pwa .img img{
+    width: 4vw;
+    margin: 1vw 1vw 1vw 0;
+}
+
+.content-pwa .div-pwa .img .edificio{
+    width: 2.5vw;
+}
+
+.content-pwa .imgapp img{
+    width: 26vw;
+}
+
+.content-pwa .content-text p{
+    margin-bottom: 3vw;
+    font-weight: 300;
+}
+
+.content-pwa .content-text span{
+    background: rgba(255, 255, 255, 1);
+    color: rgba(59, 91, 205, 1);
+    padding: 0.5vw;
+    margin-right: 1vw;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.content-pwa .content-text h3{
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+}
+
+.content-pwa .content-text .precio{
+    color: rgba(103, 136, 255, 1);
+    margin: 0;
+    font-weight: 500;
+}
+
+.content-pwa .content-text .text{
+    font-weight: 500;
+    margin: 0;
 }
