@@ -49,3 +49,54 @@
     color: rgba(255, 255, 255, 1);
     margin-left:2vw;
 }
+
+.content-idiomas-imagenes{
+    display: flex;
+    margin-top: 5vw;
+   justify-content: center;
+   color: rgba(2, 49, 107, 1);
+
+}
+
+.content-idiomas-imagenes .content-idiomas{
+    width: 60vw;
+    font-size: 1.5vw;
+    
+}
+
+.content-idiomas-imagenes .content-idiomas div{
+    display: flex;
+}
+
+.content-idiomas ul{
+    margin: 1.3vw 3vw 3vw 1vw;
+    color: rgba(90, 114, 143, 1);
+    font-weight: 300;
+    font-size: 1vw;
+}
+
+.content-idiomas .precio{
+    margin: 1.3vw 3vw 3vw 1vw;
+    color: rgba(103, 136, 255, 1);
+    font-weight: 700;
+    font-size: 1vw;
+}
+
+.digital h2{
+    text-align: center;
+    font-size: 2vw;
+    width: 68vw;
+    margin: 0 auto;
+    font-weight: 500;
+    color: rgba(68, 72, 94, 1);
+}
+
+.content-pwa{
+    background: rgba(2, 49, 107, 1);
+}
+
+.content-pwa h2{
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+}
