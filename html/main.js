@@ -13,26 +13,19 @@ const interval = setInterval(() => {
   
 
 
-  document.getElementById('contactForm').addEventListener('submit', function(event) {
-    event.preventDefault();
 
-    // Obtén los valores de los campos
-    var nombre = document.getElementById('nombre').value;
-    var correo = document.getElementById('correo').value;
-    var mensaje = document.getElementById('mensaje').value;
+const preguntas = document.querySelectorAll('p[id^="pregunta"]');
+const respuestas = document.querySelectorAll('span[id^="respuesta"]');
+const imgs = document.querySelectorAll('.img img');
 
-    // Envía los datos por correo electrónico (este es solo un ejemplo)
-    var destinatario = 'brandonlopezmonroy@gmail.com';
-    var asunto = 'Nuevo mensaje de contacto';
-    var cuerpo = 'Nombre: ' + nombre + '\nCorreo: ' + correo + '\nMensaje:\n' + mensaje;
-
-    // Enviar el correo (esto es solo un ejemplo y no enviará un correo real)
-    console.log('Enviando correo a ' + destinatario);
-    console.log('Asunto: ' + asunto);
-    console.log('Cuerpo del mensaje:\n' + cuerpo);
-
-    // Puedes agregar aquí el código para enviar el correo real usando un servicio de envío de correo, como SendGrid o Nodemailer en un entorno de servidor.
-
-    // Limpiar el formulario
-    document.getElementById('contactForm').reset();
+preguntas.forEach((pregunta, index) => {
+    pregunta.addEventListener('click', () => {
+        if (respuestas[index].style.display === 'none') {
+            respuestas[index].style.display = 'block';
+            imgs[index].style.transform = 'rotate(180deg)';
+        } else {
+            respuestas[index].style.display = 'none';
+            imgs[index].style.transform = 'rotate(0deg)';
+        }
+    });
 });
