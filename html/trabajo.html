@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./styleTrabajo.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>Trabaja con nosotros</title>
 </head>
 <body>
@@ -45,6 +46,27 @@
             <div class="content-img">
                 <img src="./Multimedia/Trabaja/Chicaflores.svg" alt="">
             </div>
+        </section>
+        <section class="content-form">
+            <h3>Haznos llegar aqui que quieres trabajar con nosotros</h3>
+            <form action="procesar_formulario.php" method="post" enctype="multipart/form-data">
+
+                <div class="form">
+                    <div>
+                        <input type="text" id="nombre" placeholder="Nombre" name="nombre" required>
+                        <input type="text" id="apellido" placeholder="Apellido" name="apellido" required>
+                        <input type="number" id="numero" placeholder="Teléfono" name="numero" required>
+                        <input type="email" id="correo" placeholder="Email" name="correo" required>
+                        <input type="file" id="cv" name="cv" required>
+                    </div>
+                    <div>
+                        <textarea name="motivacion" id="motivacion" placeholder="Carta de motivacion" cols="80" rows="20"></textarea>
+                    </div>
+                </div>
+                <p>En nombre de la empresa tratamos la informacion que nos facilitas con el fin de mantenerte informado de las distintas vacantes a un puesto de trabajo que se produzca en nuestra organizacion. los datos proporcionados se convertiran hasta la adjudicacion de un puesto de trabajo o hasta que tu ejerzas tu derecho de cancelacion por tanto tienes derecho a acceder a tus datos personales, rectificar los datos inexados o solicitar su supresion cuando los datos ya no sean necesarios . los datos no se cederan a terceros </p>      
+                <div class="g-recaptcha" data-sitekey="TU_PUBLIC_KEY"></div>   
+                <input class="submit" type="submit" value="Enviar">
+              </form>
         </section>
     </main>
 </body>
