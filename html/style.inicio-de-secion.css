@@ -1,0 +1,102 @@
+
+.main {
+    display: flex;
+}
+
+.main > div{
+    width: 50%;
+    height: calc(100vh - 6vw);
+    
+}
+
+.main .content-img{
+    background: #02316B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-img img{
+    width: 18vw;
+    margin-bottom: 2vw;
+}
+
+.content-img h5{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 1.6vw;
+}
+
+.content-img p{
+    color: #6788FF;
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.content-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-form h3{
+    color: #02316B;
+    font-size: 4vw;
+    font-weight: 500;
+}
+
+.content-form h4{
+    color: #6788FF;
+    font-size: 1.5vw;
+    font-weight: 300;
+    margin-bottom: 3vw;
+}
+
+.content-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-form div{
+    width: 65%;
+}
+
+.content-form form label{
+    color: #02316B;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0.9vw;
+}
+
+.content-form form input{
+    padding: 0.5vw;
+    border-radius: 9px;
+    border: 1px solid #6788FF57;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1vw;
+}
+
+.content-form form .buttom{
+    width: auto;
+    margin: 0 auto;
+    padding: 0.7vw;
+    background: #02316B;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 1.3vw;
+    border-radius: 40px;
+    margin-bottom: 1vw;
+}
+
+.content-form p{
+    color: #02316B;
+}
+
+.content-form p span{
+    color: #6788FF;
+    font-weight: 300;
+}
