@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/styleCalculo-de-hipotecas.css">
+    <title>Calculo de hipotecas</title>
+</head>
+<body>
+    <header class='header'>
+        <div class="nav">
+            <img src="./Multimedia/Home/LogoLow.svg" alt="">
+            <li><a href="./index.html">Home</a></li>
+            <li>Cálculo de hipotecas</li>
+            <li><a href="./funcionalidadesExtras.html">Funcionalidades Extra</a></li>
+            <li><a href="./trabajo.html">Trabaja con Nosotros</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./faq.html">FAQ</a></li>
+            <li><span>Iniciar Sesión</span></li>
+        </div>
+    </header>
+    <main>
+        <section class="section1">
+            <div>
+                <h2>Calcular Hipoteca</h2>
+                <p>Calcule su Hipoteca</p>
+                <p>¿Qué desea calcular?</p>
+                <form action="#">
+                    <select name="hipotecas" class="select-hipotecas">
+                        <option value="Hipoteca/Alquiler">Hipoteca/Alquiler</option>
+                    </select>
+                    <label for=""><input type="checkbox" name="Defuncion" id="">Se trata de una venta por defuncion</label>
+                    <p>¿De qué Comunidad Autónoma se trata?</p>
+                    <h3>Comunidad Autónoma</h3>
+                    <div class="content-comunity">
+                        <label for="">Andalucía<input name="Andalucía" type="checkbox"></label>
+                        <label for="">Aragón<input name="Aragón" type="checkbox"></label>
+                        <label for="">Asturias<input name="Asturias" type="checkbox"></label>
+                        <label for="">Cantabria<input name="Cantabria" type="checkbox"></label>
+                        <label for="">Castilla la Mancha<input name="Castilla la Mancha" type="checkbox"></label>
+                        <label for="">Castilla y León<input name="Castilla y León" type="checkbox"></label>
+                        <label for="">Cataluña<input name="Cataluña" type="checkbox"></label>
+                        <label for="">Ceuta<input name="Ceuta" type="checkbox"></label>
+                        <label for="">Com. Valenciana<input name="Com. Valenciana" type="checkbox"></label>
+                        <label for="">Comunidad de Madrid<input name="Comunidad de Madrid" type="checkbox"></label>
+                        <label for="">Extremadura<input name="Extremadura" type="checkbox"></label>
+                        <label for="">Galicia<input name="Galicia" type="checkbox"></label>
+                        <label for="">Islas Baleares<input name="Islas Baleares" type="checkbox"></label>
+                        <label for="">Islas Canarias<input name="Islas Canarias" type="checkbox"></label>
+                        <label for="">Melilla<input name="Melilla" type="checkbox"></label>
+                        <label for="">Murcia<input name="Murcia" type="checkbox"></label>
+                        <label for="">Navarra<input name="Navarra" type="checkbox"></label>
+                        <label for="">País Vasco<input name="País Vasco" type="checkbox"></label>
+                    </div>
+                    <p>¿A cuántos años quiere que sea calculado?</p>
+                    <div>
+                        <input type="number" placeholder="30"><span>Años|</span>
+                        <input type="number" placeholder="360"><span>Cuotas</span>
+                    </div>
+                    <input type="submit" value="Enviar" />
+              </form>
+            </div>
+            <div>
+                <img src="./Multimedia/Calculo/Recurso 2chicaConTarjeta.svg" alt="">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
