@@ -29,3 +29,10 @@ preguntas.forEach((pregunta, index) => {
         }
     });
 });
+
+const imagenMenu = document.querySelector('.menuclick');
+
+imagenMenu.addEventListener('click', () => {
+  const menuCompleto = document.querySelector('.menu-completo');
+  menuCompleto.style.display = 'block';
+});
