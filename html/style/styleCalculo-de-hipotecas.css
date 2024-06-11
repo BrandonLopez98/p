@@ -59,3 +59,44 @@ form > label input{
     bottom: 0;
     right: 0;
 }
+
+.content-comunity-section{
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    margin: 1vw 0;
+}
+
+.content-comunity-section label{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3vw;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.section1 .img{
+    width: 26vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#one{
+    display: none;
+}
+
+#two{
+    display: none;
+}
+
+#tree .content-comunity-section{
+    height: 50vh;
+    width: 55vw;
+}
+
+#tree .content-comunity-section label{
+    line-height: 1.5;
+    font-size: 1.05vw;
+
+}
