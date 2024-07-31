@@ -7,18 +7,15 @@
     justify-content:left;
     margin-left: 10vw;
 }
-
 .content-contacto > div{
     width: 40vw;
 }
-
 .content-contacto .text{
     display: flex;
     align-items: center;
     margin-bottom: 1vw;
 
 }
-
 .content-contacto .content-img h2{
     background: rgba(103, 136, 255, 1);
     padding: 0.8vw;
@@ -31,7 +28,6 @@
     width: 11vw;
 
 }
-
 .content-contacto .content-img img{
     background: rgba(103, 136, 255, 0.22);
     padding: 0.8vw;
@@ -39,54 +35,47 @@
     margin-right: 0.5vw;
     border-radius: 10px;
 }
-
 .content-contacto .content-img p{
     background: rgba(103, 136, 255, 0.22);
     padding: 0.8vw;
     margin-right: 0.5vw;
     border-radius: 10px;
 }
-
 .content-contacto .content-img .img-contacto{
     position: absolute;
     bottom: 1vw;
     left: 1vw;
-    width: 25vw;
+    width: 40vw;
+    max-width: 450px;
+    z-index: -2;
     background: none;
 }
-
 .content-img{
   margin-top: 10vw;
 }
-
 .content-form{
    text-align: center;   
 }
-
 .content-form h2{
     color: rgba(2, 49, 107, 1);
     font-size: 4vw;
     font-weight: 500;
     margin-top: 2vw;
 }
-
 .content-form h5{
     color: rgba(2, 49, 107, 1);
     font-size: 1.6vw;
     font-weight: 500;
 }
-
 .content-form span{
     color: rgba(103, 136, 255, 1);
     font-size: 1.6vw;
     font-weight: 500;
 }
-
 .content-form p{
     color: rgba(2, 49, 107, 1);
     font-size: 1.5vw;
 }
-
 .content-form .form-group{
     display: flex;
     flex-direction: column;
@@ -96,11 +85,9 @@
     margin-top: 2vw;
     border-radius: 10px;
 }
-
 .content-form .form-group label{
     color: rgba(2, 49, 107, 1);
 }
-
 .content-form .form-group input{
     background: none;
     border-radius: 5px;
@@ -108,11 +95,93 @@
     margin-bottom: 1.5vw;
     border: 1px solid rgba(103, 136, 255, 0.34)
 }
-
 .content-form .form-group textarea{
     background: none;  
     border-radius: 5px; 
     padding: 0.3vw;
     margin-bottom: 1.5vw;
     border: 1px solid rgba(103, 136, 255, 0.34)
+}
+
+@media  (max-width: 847px) {
+    .content-contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10vw;
+    }
+    .content-contacto > div{
+        width: 50vw;
+    }
+    .content-img{
+        margin-top: 1vw;
+      }
+}
+
+@media  (max-width: 695px) {
+    .content-contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .content-contacto > div{
+        width: 80vw;
+        margin-top: 5vw;
+    }
+    .content-img{
+        margin-top: 3vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .content-contacto .content-img .img-contacto{
+        position: absolute;
+        bottom: 1vw;
+        left: 1vw;
+        width: 40vw;
+        max-width: 450px;
+        z-index: -2;
+        background: none;
+        display: none;
+    }
+    .content-contacto .content-img h2{
+        background: rgba(103, 136, 255, 1);
+        padding: 0.8vw;
+        margin-right: 0.5vw;
+        border-radius: 10px;
+        font-size: 3.6vw;
+        font-weight: 500;
+        margin-bottom: 3vw;
+        color: rgba(255, 255, 255, 1);
+        width: 24vw;
+    
+    }
+    .content-form h2{
+        color: rgba(2, 49, 107, 1);
+        font-size: 6vw;
+        font-weight: 500;
+        margin-top: 2vw;
+    }
+    .content-form h5{
+        color: rgba(2, 49, 107, 1);
+        font-size: 3.6vw;
+        font-weight: 500;
+    }
+    .content-form span{
+        color: rgba(103, 136, 255, 1);
+        font-size: 3.6vw;
+        font-weight: 500;
+    }
+    .content-form p{
+        color: rgba(2, 49, 107, 1);
+        font-size: 3.5vw;
+    }
+    .content-contacto .content-img img{
+        background: rgba(103, 136, 255, 0.22);
+        padding: 0.8vw;
+        width: 5vw;
+        margin-right: 0.5vw;
+        border-radius: 10px;
+    }
 }
