@@ -23,15 +23,17 @@
 
 .digital .manera-digital{
     text-align: center;
+    display: flex;
 }
 
-.digital .manera-digital h3{
+.digital h3{
     margin: 3vw 0 3vw 0;
     font-weight: 500;
     font-size: 1.8vw;
+    text-align: center;
 }
 
-.digital .manera-digital > div{
+.digital .manera-digital > div {
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
@@ -39,8 +41,9 @@
     width: 85vw;
     color: rgba(90, 114, 143, 1);
     font-weight: 300;
-
 }
+
+
 
 .digital .manera-digital div span{
     background: rgba(59, 91, 205, 1);
@@ -169,3 +172,47 @@
     font-weight: 500;
     margin: 0;
 }
+
+@media  (max-width: 1023px) {
+    .digital h3{
+        margin: 3vw 0 3vw 0;
+        font-weight: 500;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+}
+
+@media  (max-width: 668px) {
+    .header .title{
+        text-align: center;
+        background: rgba(59, 91, 205, 1);
+        color: rgba(255, 255, 255, 1);
+        padding: 5vw 0 5vw 0;
+    }    
+    .img-none{
+        display: none;
+    }
+
+    .digital h3{
+        margin: 3vw 0 3vw 0;
+        font-weight: 500;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    .digital .manera-digital{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .digital .manera-digital > div {
+        display: flex;
+        margin: 2vw auto;
+        justify-content: space-around;
+        align-items: center;
+        width: 95vw;
+        color: rgba(90, 114, 143, 1);
+        font-weight: 300;
+    }
+}
+  
