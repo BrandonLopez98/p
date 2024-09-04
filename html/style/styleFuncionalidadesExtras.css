@@ -75,14 +75,14 @@
     margin: 1.3vw 3vw 3vw 1vw;
     color: rgba(90, 114, 143, 1);
     font-weight: 300;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 .content-idiomas .precio{
     margin: 1.3vw 3vw 3vw 1vw;
     color: rgba(103, 136, 255, 1);
     font-weight: 700;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 .digital h2{
@@ -180,6 +180,8 @@
         font-size: 2.5vw;
         text-align: center;
     }
+
+  
 }
 
 @media  (max-width: 668px) {
@@ -196,7 +198,7 @@
     .digital h3{
         margin: 3vw 0 3vw 0;
         font-weight: 500;
-        font-size: 2.5vw;
+        font-size: 3vw;
         text-align: center;
     }
 
@@ -213,6 +215,39 @@
         width: 95vw;
         color: rgba(90, 114, 143, 1);
         font-weight: 300;
+    }
+    .img-none{
+        display: none;
+    }
+    .content-idiomas-imagenes .content-idiomas{
+        width: 90vw;
+        font-size: 1.5vw;
+        
+    }
+    .content-idiomas ul{
+        margin: 1.3vw 3vw 3vw 1vw;
+        color: rgba(90, 114, 143, 1);
+        font-weight: 300;
+        font-size: 2.2vw;
+    }
+    
+    .content-idiomas .precio{
+        margin: 1.3vw 3vw 3vw 1vw;
+        color: rgba(103, 136, 255, 1);
+        font-weight: 700;
+        font-size: 2.2vw;
+    }
+
+    .content-pwa .div-pwa .img{
+        display: none;
+    }
+
+    .content-pwa .div-pwa .imgapp{
+        display: none;
+    }
+
+    .content-pwa .div-pwa .content-text{
+        width: 90vw;
     }
 }
   
